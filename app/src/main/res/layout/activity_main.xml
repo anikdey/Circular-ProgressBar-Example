@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ddd"
+    tools:context=".MainActivity">
+
+
+
+    <com.anikdey.circular_progressbar.ProgressiveCircle
+        android:id="@+id/circle"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:backgroundCircleColor="@color/colorPrimary"
+        app:foregroundCircleColor="@color/colorAccent"
+        app:textColor="@color/colorBlack"
+        app:textSize="25dp"
+        app:startAngle="-90" />
+
+    <com.anikdey.circular_progressbar.CircularProgressBar
+        android:id="@+id/textCircleProgress"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:innerCircleColor="@color/colorWhite"
+        app:progressCircleColor="@color/colorAccent"
+        app:mtextColor="@color/colorBlack"
+        app:progressBarWidth="20"
+        app:mtextSize="30dp"
+        app:mstartAngle="-90"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

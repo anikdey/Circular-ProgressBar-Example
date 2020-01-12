@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ProgressiveCircle">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="startAngle" format="float" />
+        <attr name="percentCompleted" format="float" />
+        <attr name="backgroundCircleColor" format="color" />
+        <attr name="foregroundCircleColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="progressBarWidth" format="float" />
+        <attr name="mtextSize" format="dimension" />
+        <attr name="mtextColor" format="color" />
+        <attr name="mstartAngle" format="float" />
+        <attr name="mpercentCompleted" format="float" />
+        <attr name="innerCircleColor" format="color" />
+        <attr name="progressCircleColor" format="color" />
+    </declare-styleable>
+
+
+
+
+</resources>
