@@ -3,12 +3,11 @@
 
 
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
 }
   
-dependencies {
-	implementation 'com.github.anikdey:Circular-ProgressBar-Example:Tag'
-}
+	dependencies {
+	        implementation 'com.github.anikdey:Circular-ProgressBar-Example:Tag'
+	}
